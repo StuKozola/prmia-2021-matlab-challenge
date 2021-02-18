@@ -12,8 +12,10 @@
 ![Spreadsheet Dashboard Example](SpreadsheetDashboard.png)
 
 ## Files of note
+```
 *.xlsm Spreadsheet dashboard
 *.csv files contain data used by the app
 *.m files are functions
-*.fig files contain examples figures genereated from `riskCalc.m`
+*.fig files contain examples figures generated from `riskCalc.m`
 *.mat files contain pre-trained machine learning models used for the credit scoring
+```
