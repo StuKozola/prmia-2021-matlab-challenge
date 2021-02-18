@@ -1,5 +1,7 @@
 function ratings = rateBonds(newBonds)
 
+% copyright 2021 MathWorks, Inc
+
 % pretrained boosted decision tree
 load('ratingModel.mat')
 

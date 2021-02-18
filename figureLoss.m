@@ -1,5 +1,7 @@
 function imageData = figureLoss(losses, riskMeasures, imageWidth, imageHeight, fax)
 
+% copyright 2021 MathWorks, Inc
+
 if nargin < 3
     imageWidth = 900;
 end

@@ -1,5 +1,7 @@
 function migrationPrices = migrationScenarios(valuationDate, zeroRates, bonds)
 
+% copyright 2021 MathWorks, Inc
+
 if ~isdatetime(valuationDate)
     valDate = datetime(valuationDate, 'ConvertFrom', 'Excel');
 else

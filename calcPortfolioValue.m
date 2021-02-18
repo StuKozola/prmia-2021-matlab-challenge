@@ -1,6 +1,8 @@
 function portValue = calcPortfolioValue(bonds, valuationDate, zeroRates)
 % This requires that the bonds have initial ratings in order to price
 
+% copyright 2021 MathWorks, Inc
+
 zeroDates = valuationDate + calyears(0:size(zeroRates,1)-1)';
 
 ratingNames = {'AAA','AA','A','BBB','BB','B','CCC','Default'};

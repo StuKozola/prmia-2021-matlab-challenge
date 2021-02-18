@@ -1,5 +1,7 @@
 function transitions = transitionMatrix(migrationHistory)
 
+% copyright 2021 MathWorks, Inc
+
 % convert input into a table with column metadata
 migrationEvents = cell2table(migrationHistory);
 migrationEvents.Properties.VariableNames = {'ID','Date','Rating'};

@@ -1,4 +1,7 @@
 function str = dispCurrency(amt)
+
+% copyright 2021 MathWorks, Inc
+
     str = fliplr(sprintf('%10.2f',abs(amt)));
     str = regexprep(str,' ','');
     str = str(sort([1:length(str) 7:3:length(str)]));

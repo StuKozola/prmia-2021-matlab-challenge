@@ -2,6 +2,8 @@ function [portMetrics, figLoss, figCounterparty, figMarginalRisk] = ...
     calcRisk(VaRLevel, numScenarios, valuationDate, zeroRates, bonds, ...
     migrationPrices, transitionMat, factorExposures, factorCorr, figHandles)
 
+% copyright 2021 MathWorks, Inc
+
 % define random number generator seed for repeatability
 rng default
 
